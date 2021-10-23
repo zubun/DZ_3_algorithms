@@ -2,7 +2,7 @@
 # Программа должна вычислять сумму введенных элементов каждой строки и записывать ее в последнюю ячейку строки.
 # В конце следует вывести полученную матрицу.
 import numpy as np
-def random_list():
+def random_matrix():
     import random
     par_1 = int(input(f'Введите число строк матрицы: '))
     par_2 = int(input(f'Введите столбцов матрицы: '))
@@ -17,7 +17,7 @@ def random_list():
     return list_matrix
 
 
-list_1 = random_list()
+list_1 = random_matrix()
 
 new_matrix = []
 for i in range(len(list_1)):
